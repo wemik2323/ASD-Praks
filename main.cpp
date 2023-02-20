@@ -30,7 +30,7 @@ int main() {
         double seconds = (double)(end - start) / CLOCKS_PER_SEC;
 //--------------------------------------------
         vivod(n, x);
-        cout << "Время выполнения цикла - " << seconds << endl;
+        cout << "Время выполнения цикла - " << seconds << '\n';
         randomim(n, x);
     }
 }
@@ -48,7 +48,7 @@ void vivod(int n, int* x)
     for (int i = 0; i < n; i++) {
         cout << x[i] << " ";
     }
-    cout << endl;
+    cout << '\n';
 }
 
 void InSort (int n, int* x)
@@ -78,5 +78,5 @@ void Shell(int n, int x[]) //Shell's method
         d=d/2;
     }
     for (int i=0; i<n; i++) cout << x[i] << " ";
-    cout << endl;
+    cout << '\n';
 }
